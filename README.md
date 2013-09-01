@@ -14,10 +14,15 @@ Note that right now, this only handles methods found in ActiveSupport::Inflector
 
 ### Browser
 
-Include both underscore.js and underscore.inflections on your page:
+Both `underscore` and the `underscore.string` plugin are required before loading inflections.
+
+```bash
+wget https://raw.github.com/geetarista/underscore.inflections/master/lib/underscore.inflections.js
+```
 
 ```html
 <script src="underscore.js" type="text/javascript"></script>
+<script src="underscore.string.js" type="text/javascript"></script>
 <script src="underscore.inflections.js" type="text/javascript"></script>
 ```
 
